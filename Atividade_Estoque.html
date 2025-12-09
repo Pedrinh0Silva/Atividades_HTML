@@ -1,0 +1,81 @@
+<html>
+
+<head></head>
+<link rel="stylesheet" href="Ascents/style.css">
+
+<body>
+    <nav class="NavaBar">
+        <a href="#" class="navbar-brand">Estoque Simples</a>
+        <div class="ContainerBar">
+
+            <ul class="IntensNav">
+                <li class="nav-intem">Cadastro</li>
+                <li class="nav-item">Visualizar</li>
+            </ul>
+
+        </div>
+    </nav>
+    <div>
+        <section id="Conteiner_cad_Mercadoria" class="Card">
+            <h2 class="Card-Header-Mercadoria">Cadastro de Mercadoria</h2>
+
+            <div class="Form-Mercadoria">
+                <form>
+                    <div class="Form-Group">
+                        <label for="Nome_Mercadoria">Nome da Mercadoria:</label>
+                        <input type="text" id="Nome_Mercadoria" name="Nome_Mercadoria" required>
+                    </div>
+                    <div class="Form-Group">
+                        <label for="Quantidade">Quantidade:</label>
+                        <input type="number" id="Quantidade" name="Quantidade" required>
+                    </div>
+                    <div class="Form-Group">
+                        <label for="ID">ID:</label>
+                        <input type="text" id="Mercadoria-id" value="0001">
+                    </div>
+                    <div class="Form-Group">
+                        <label for="Validade">Validade</label>
+                        <input type="date" id="Validade" name="Validade" required>
+                    </div>
+                    <div class="Form-Group">
+                        <button type="submit" class="Btn-Salvar">Salvar</button>
+                        <button type="reset" class="Btn-Limpar">Limpar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <div style="height: 30px;"></div>
+        <section id="tabela" class="Card">
+            <h2 class="Card-Header-Mercadoria">Dados Cadastrados</h2>
+            <div class="Tabela-responsiva">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome da Mercadoria</th>
+                            <th scope="col">Quantidade</th>
+                            <th scope="col">Validade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0001</td>
+                            <td>Arroz</td>
+                            <td>50</td>
+                            <td>2024-12-31</td>
+                        </tr>
+                        <tr>
+                            <td>0002</td>
+                            <td>Feijão</td>
+                            <td>30</td>
+                            <td>2024-11-30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
