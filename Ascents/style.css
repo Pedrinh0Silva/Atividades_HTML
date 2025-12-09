@@ -1,12 +1,126 @@
-.NavaBar {
-    background-color: rgb(75, 72, 72);
-    margin: 10px;
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
 }
 
-    .ConteinerBar.ConteinerBar{
-        font-size: 24px;
-        color: white;
-        text-align: center;
-        text-decoration: aliceblue;
-    }
+.NavaBar {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.ContainerBar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.ContainerBar li {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ContainerBar li:hover {
+    text-decoration: underline;
+}
+
+.Card {
+    width: 55%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.Card-Header-Mercadoria {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Form-Mercadoria form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Form-Group {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form-Group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Form-Group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Btn-Salvar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.Btn-Salvar:hover {
+    background-color: #006be6;
+}
+
+.Btn-Limpar {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Btn-Limpar:hover {
+    background-color: #5a6268;
+}
+
+.Tabela-responsiva {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #f8f9fa;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
