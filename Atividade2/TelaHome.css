@@ -1,0 +1,22 @@
+/* Estilo geral dos cards */
+.card-home {
+    border-radius: 15px;
+    background-color: white;
+    transition: transform .2s;
+}
+
+.card-home:hover {
+    transform: scale(1.02);
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Tabela */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
